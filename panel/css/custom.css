@@ -1,0 +1,365 @@
+.btn {
+    cursor: pointer;
+}
+
+.btn a {
+    display: block;
+    text-align: center;
+    margin: 2rem auto 0;
+    width: 70%;
+    max-width: 300px;
+    background: orange;
+    line-height: 2rem;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    text-shadow: none;
+    cursor: pointer;
+    text-decoration: none
+}
+
+/* [welcome] */
+body,html{
+	margin: 0;
+}
+.welcome
+{
+	width: 100%;
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	text-shadow: 0 1px #000000;
+}
+
+@media (max-width: 800px) {
+    .welcome
+    {
+        padding-top: 80px;
+    }
+}
+
+h1.title strong{
+	color: #94c740;
+}
+
+h1.big-title {
+	font-size: 450%;
+}
+
+@media (max-width: 800px) {
+	h1.big-title
+	{
+        font-size: 330%;
+        margin: 1rem 0;
+        text-transform: uppercase;
+	}
+}
+
+/* [welcome][login] */
+.welcome form {
+    width: 90%;
+    max-width: 320px;
+    padding: 20px;
+    margin: 20px auto 0;
+    position: relative;
+}
+
+.welcome form .form-input {
+    position: relative;
+}
+
+.welcome form input {
+    width: 100%;
+    margin: 1.3rem 0;
+    line-height: 2rem;
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+.welcome form input:focus {
+    outline: transparent;
+}
+
+.welcome form label {
+    position: absolute;
+    top: 0;
+}
+
+.welcome form button {
+    color: white;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 0;
+    background: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome form button:hover {
+    background: #94c740;
+    cursor: pointer;
+}
+
+/* [dashboard] */
+.dashboard {
+  --color-first: rgba(150, 200, 64, 1); /*green*/
+  --color-second: rgba(255, 255, 255, 1); /*white*/
+
+  --color-glass: rgba(255, 255, 255, 0.9);
+  --color-first-glass: rgba(150, 200, 64, .8);
+
+  
+  --width-sidebar: 80px;
+}
+
+/* [path] */
+.path {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-bottom: 1px solid var(--color-first-glass);
+}
+
+.text-title{
+    font-size: 24px;
+    color: var(--color-first-glass);
+}
+.text-title .fa{
+    margin-right: 12px;
+    color: var(--color-first-glass);
+}
+.text-small{
+    --color-first-glass: rgba(150, 200, 64, .5);
+    color: var(--color-first-glass);
+    font-size: 14px;
+}
+
+/* [ui-content] */
+body {
+    overflow: hidden;
+}
+
+.ui-content {
+    display: inline-block;
+    margin-left: 80px;
+    background: var(--color-glass);
+    min-height: 100%;
+    width: calc(100% - var(--width-sidebar));
+    padding: 16px 2% 16px 80px;
+    box-sizing: border-box;
+    max-height: 100%;
+    overflow: scroll;
+}
+
+/* [ui-sidebar] */
+.ui-sidebar {
+    position: fixed;
+    height: 100%;
+    width: 80px;
+    background:  var(--color-second);
+    box-sizing: border-box;
+    float: left;
+    overflow-x:hidden;
+    z-index: 100;
+}
+
+.ui-sidebar:hover {
+    transition-delay: 1.3s;
+    width: 220px;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 0.80, 1.2, 1);
+}
+
+.nav-content .nav-item {
+    width: 220px;
+    overflow: hidden;
+    display: block;
+    background: var(--color-second);
+    color: var(--color-first);
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-content .nav-item:hover {
+    background: var(--color-first-glass);
+    color: var(--color-second);
+}
+
+.nav-content .nav-item:hover .fa {
+    background: var(--color-first);
+    color: var(--color-second);
+}
+
+.nav-content .nav-item .fa{
+    color: var(--color-first);
+    font-size: 20px;
+    padding: 24px 30px;
+    margin-right: 6px;
+}
+
+.nav-content .nav-item .fa:hover{
+    background: var(--color-first);
+    color: var(--color-second);
+}
+
+/* [stats] */
+.stats {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 16px;
+}
+
+.stats-item {
+    display: inline-block;
+    float: left;
+    margin: 0 1%;
+    font-size: 12px;
+    padding: 20px 10px;
+    background: white;
+    color: rgba(70, 70, 70, 0.7);
+    width: 23%;
+    box-shadow: 0 1px 10px -5px #9E9E9E;
+    box-sizing: border-box;
+    min-width: 150px;
+}
+
+.stats-item--data {
+    text-align: left;
+    font-size: 24px;
+}
+
+.stats-item--info {
+    font-size: 10px;
+    text-transform: none;
+}
+
+/* [data] */
+.data {
+    padding: 2rem;
+    background: white;
+    position: relative;
+}
+
+.data .count {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    background: #9ccb4b;
+}
+
+/* [data-table, table] */
+
+.data-table{
+  --color-first-glass: rgba(150, 200, 64, .3);
+}
+
+.data-table th,td {
+    text-align: left;
+    padding: 8px 4px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.data-table th {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.data-table th a{
+    cursor: pointer;
+}
+
+.data-table th:hover{
+    background:transparent !important;
+}
+
+
+.data-table tr {
+    display: table-row;
+}
+
+.data-table tr td {
+    border-bottom: 1px solid #96c840;
+    padding: 10px 5px;
+}
+
+.data-table tbody tr:hover{
+    background: var(--color-first-glass);
+}
+
+.data-table tbody tr:hover .options-phanton a{
+    color:orange;
+}
+.navigation {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.pagination li {
+    display: inline;
+    padding: .5rem;
+    font-size: 16px;
+    border: 1px solid;
+    border-right: 0;
+    cursor:pointer;
+}
+
+.pagination li:hover {
+    color:black;
+    background:orange;
+}
+.pagination li:hover a{
+    color:black;
+    background:orange;
+}
+
+.pagination li:nth-child(1) {
+    border-radius: 5px 0 0 5px
+}
+
+.pagination li:last-child {
+    border-right: 1px solid;
+    border-radius: 0 5px 5px 0;
+}
+
+.data .count .label {
+    font-size: 16px;
+    color: white;
+    background: #96c840;
+    border-radius: 18px;
+    padding: .2rem 1rem;
+    line-height: 18px;
+}
+
+.post-pending {
+    font-size: 20px;
+    color: #fca316;
+}
+
+.post-property {
+    font-size: 20px;
+    color: #96c840;
+}
+
+.options-phantom a{
+    padding: 0 1.5rem;
+    color: transparent;
+    cursor: pointer;
+}
+
+/* [galeria] */
+img.galeri-img[data-safeurl=found] {
+    display: inline-block;
+}
+
+img.galeri-img {
+    display: none;
+}

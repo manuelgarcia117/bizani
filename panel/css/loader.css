@@ -1,0 +1,100 @@
+#loading 
+{
+	background: #FFA000;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+	color: white;
+	text-align: center;
+	line-height: 94vh;
+	font-size: 7vw;
+	display: block;
+	-webkit-animation: fadeout 1.3s 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation: fadeout 1.3s 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+/*Location indicator */
+.location_indicator
+{
+	position: relative;
+	width: 100px;
+	margin: 0 auto;
+	top: 44vh;
+	height: 100px;
+}
+.location_indicator:before, 
+.location_indicator:after
+{
+	position: absolute;
+	content: "";
+}
+.location_indicator:before
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 100% 100% 100% 0;
+	box-shadow: 0px 0px 0px 2px rgba(255,255,255,1);
+	left:0px;
+	animation: mapping 1s linear infinite;
+	-webkit-animation: mapping 1s linear infinite;
+	-moz-animation: mapping 1s linear infinite;
+	transform: rotate(-46deg);
+	-webkit-transform: rotate(-46deg);
+	-moz-transform: rotate(-46deg);
+}
+.location_indicator:after{
+	width: 100px;
+	height: 10px;
+
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, 0.2);
+	top: 120px;
+	z-index: -1;
+	left: 0px;
+}
+
+	.location_indicator img {
+		position: relative;
+		width: 85%;
+		margin-top: 9px;
+		animation: mapping 1s linear infinite;
+		-webkit-animation: mapping 1s linear infinite;
+		-moz-animation: mapping 1s linear infinite;
+	}
+
+/*keyframes*/
+
+@-webkit-keyframes fadeout{
+    99% { opacity:0;width: 100%; height: 100%; }
+    100% { opacity:0; width: 0; height: 0; }
+}
+@-moz-keyframes fadeout{
+    99% { opacity:0;width: 100%; height: 100%; }
+    100% { opacity:0; width: 0; height: 0; }
+}
+@keyframes fadeout{
+    99% { opacity:0; width: 100%; height: 100%; }
+    100% { opacity:0; width: 0; height: 0; }
+}
+
+@-webkit-keyframes mapping{
+	0% {top: 0;}
+	50%{top: -5px;}
+	100% {top:0;}
+}
+@-moz-keyframes mapping{
+	0% {top: 0;}
+	50%{top: -5px;}
+	100% {top:0;}
+}
+@keyframes mapping{
+	0% {top: 0;}
+	50%{top: -5px;}
+	100% {top:0;}
+}
