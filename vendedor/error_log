@@ -1,0 +1,33 @@
+[18-May-2017 00:51:33 America/Bogota] PHP Notice:  Undefined variable: cantidadlikes in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 99
+[18-May-2017 00:51:33 America/Bogota] PHP Fatal error:  Unsupported operand types in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 99
+[18-May-2017 00:52:09 America/Bogota] PHP Notice:  Undefined variable: cantidadlikes in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 99
+[18-May-2017 00:52:09 America/Bogota] PHP Fatal error:  Unsupported operand types in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 99
+[18-May-2017 01:13:59 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:14:00 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:14:04 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:14:07 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:14:07 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:14:07 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:28 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:33 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:33 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:34 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:34 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:45 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:46 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:46 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:15:58 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:16:31 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:16:47 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:17:00 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:17:42 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:17:44 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:17:48 America/Bogota] PHP Notice:  Undefined index: cantidadvisitas in /home/adminbizani/public_html/administrador/get_graficas.php on line 38
+[18-May-2017 01:20:46 America/Bogota] PHP Notice:  Undefined variable: cantidadlikes in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 110
+[18-May-2017 01:20:46 America/Bogota] PHP Fatal error:  Unsupported operand types in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 110
+[18-May-2017 01:21:58 America/Bogota] PHP Notice:  Undefined variable: cantidadlikes in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 110
+[18-May-2017 01:21:58 America/Bogota] PHP Fatal error:  Unsupported operand types in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 110
+[18-May-2017 18:19:29 America/Bogota] PHP Notice:  Undefined variable: cantidadlikes in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 111
+[18-May-2017 18:19:29 America/Bogota] PHP Fatal error:  Unsupported operand types in /home/adminbizani/public_html/administrador/get_mis_inmuebles.php on line 111
+[18-May-2017 19:05:15 America/Bogota] PHP Notice:  Undefined variable: cantidadlikes in /home/adminbizani/public_html/administrador/get_graficas.php on line 99
+[18-May-2017 19:05:15 America/Bogota] PHP Fatal error:  Unsupported operand types in /home/adminbizani/public_html/administrador/get_graficas.php on line 99
